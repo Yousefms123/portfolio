@@ -19,6 +19,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	list-style: none;
+	scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
 	width: 5px;
@@ -350,6 +351,11 @@ a {
 }
 
 .preview-link {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 2rem;
 	color: white;
 	font-size: 20px;
 	position: absolute;
