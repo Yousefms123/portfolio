@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
-  <g id="aboutme" transform="translate(-1142 -5214)">
-    <g id="Rectangle_11" data-name="Rectangle 11" transform="translate(1142 5214)" fill="none" stroke="#fff" stroke-width="1">
-      <rect width="50" height="50" rx="5" stroke="none"/>
-      <rect x="0.5" y="0.5" width="49" height="49" rx="4.5" fill="none"/>
-    </g>
-    <text id="me" transform="translate(1146 5249)" fill="#fff" font-size="30" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">me</tspan></text>
-  </g>
-</svg>
