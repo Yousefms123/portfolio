@@ -92,7 +92,7 @@
 		font-size: 0.8rem;
 	}
 	/* RESPONSIVE SKILLS */
-	.skills .answer p {
+	.skills .answer article {
 		text-align: justify;
 		line-height: 2;
 		font-size: 0.8rem;

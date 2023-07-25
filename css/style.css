@@ -52,7 +52,12 @@ a {
 	cursor: pointer;
 }
 .navbar {
+	z-index: 1;
 	padding: 1rem 0;
+	position: sticky;
+	top: 0;
+	background-color: #fff;
+	border-bottom: 1px solid var(--prim-color);
 }
 .li-list {
 	position: relative;
@@ -251,18 +256,17 @@ a {
 	min-width: 90%;
 	margin: auto;
 }
-.skills .answer p {
+.skills .answer article {
 	text-align: center;
 	font-family: var(--Regular-font);
 	line-height: 2.5;
 	color: var(--text-color);
 }
-.type-skills {
-	display: grid;
-	grid-template-columns: 45% 10% 40%;
-}
 
 /* MY WORK STYLS */
+.scrolle-bar {
+	margin-top: 2rem;
+}
 .gallery-work {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
