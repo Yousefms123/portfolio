@@ -92,19 +92,10 @@
 		font-size: 0.8rem;
 	}
 	/* RESPONSIVE SKILLS */
-	.type-skills {
-		display: grid;
-		grid-template-columns: 1fr;
-		row-gap: 2rem;
-	}
-	.type-skills .header-statistic img {
-		width: 2rem;
-	}
-	.type-skills .header-statistic p {
-		font-size: 1.2rem;
-	}
-	.type-skills .statistic-skills .skills-item {
-		margin-left: 1rem;
+	.skills .answer p {
+		text-align: justify;
+		line-height: 2;
+		font-size: 0.8rem;
 	}
 	/* RESPONSIVE MY WORK */
 	.scrolle-bar {
@@ -139,6 +130,9 @@
 		-moz-border-radius: 0 0 11px 11px;
 		-ms-border-radius: 0 0 11px 11px;
 		-o-border-radius: 0 0 11px 11px;
+	}
+	.preview-link a {
+		font-size: 12px;
 	}
 	/* RESPINSIVE CONTACT ME */
 	.details-contact {
